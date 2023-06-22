@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    width: 100vw;
+    background-color: #D9D9D9;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    background-color: #F5F5F5;
+    height: 60%;
+    width: 40%;
+}
+
+.searchIcon{
+    width:5%;
+    height: 100%;
+    
+}
+
+.searchInput{
+    border-radius: 6px;
+    background-color: #F5F5F5;
+    width: 95%;
+    height: 95%;
+    font-size: 2rem;
+    border: none;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.modesButton{
+    cursor: pointer;
+align-items: center;
+justify-content: start;
+display: flex;
+flex-flow: column wrap;
+    width: 60px;
+    height: 40px;
+    border-radius: 11px;
+    background-color: #F5F5F5;
+    border: 1px solid #313136;
+    overflow: hidden;
+}
+
+.modesContainer{
+    width: 50px;   
+    height: 40px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    flex-flow: column wrap;
+    transition: 0.5s all;
+}
+
+.darkContainer{
+    width: 50px;   
+    height: 40px;
+}
+
+.lightCotainer{
+    width: 50px;   
+    height: 40px;
+}
+
+.moonIcon{
+    width: 30px;    
+    height: 40px;
+}
+
+.sunIcon{
+    width: 30px;   
+     height: 40px;
+}
