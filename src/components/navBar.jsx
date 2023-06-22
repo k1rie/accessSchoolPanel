@@ -12,10 +12,12 @@ export default function NavBar(props) {
 
  
   useEffect(() => {
-    if (localStorage.getItem('mode') === "light") {
-lightModeChanges()
-    } else {
-darkModeChanges()    
+if(localStorage.getItem("mode")){
+  if (localStorage.getItem('mode') === "light") {
+    lightModeChanges()
+        } else {
+    darkModeChanges()    
+    }
 }
 
   }, []);

@@ -65,7 +65,7 @@ function App() {
     <>
       <NavBar
         mode={(mode) => {
-          if (mode === "dark") {
+          if (localStorage.getItem("mode") === "dark") {
             darMode();
           } else {
             lightMode();
